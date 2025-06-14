@@ -3,10 +3,10 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/LuxzHost/userbot
+git clone https://github.com/LuxzHost/Bot
 ```
 ```
-cd userbot && screen -S userbot
+cd Bot && screen -S Bot
 ```
 ```
 apt install ffmpeg -y
@@ -27,7 +27,7 @@ pip3 install -r requirements.txt
 cp sample.env .env && nano .env
 ```
 ```
-screen -S userbot
+screen -S Bot
 ```
 ```
 python3 -m PyroUbot
@@ -36,7 +36,7 @@ python3 -m PyroUbot
 ---------- Menghidupan jika ubot mati -------------
 ```
 ```
-cd userbot && screen -S userbot
+cd Bot && screen -S Bot
 ```
 ```
 python3 -m venv venv && source venv/bin/activate
